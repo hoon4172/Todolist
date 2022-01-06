@@ -58,8 +58,6 @@ function trashCheck (e){
 
 function filterTodo(e){
     const todos = $todolist.childNodes;
-    console.log("todos >> ", todos);
-    console.log(e.target.value);
     todos.forEach(function(todo){
         switch(e.target.value){
             case "all":
@@ -82,4 +80,8 @@ function filterTodo(e){
         }
     });
 }
-aa
+
+function saveLocalTodos(todo) {
+    let todos;
+
+}
